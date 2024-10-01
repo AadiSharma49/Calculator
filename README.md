@@ -28,5 +28,11 @@ To use this calculator on your local machine, follow these steps:
 
  **Clone the repository**:
 
-   ```bash
+   ```bash 
    git clone https://github.com/yourusername/calculator.git
+  ```
+## License
+
+This project is licensed under the MIT License.
+
+
