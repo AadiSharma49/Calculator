@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="-1">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="every">
+    <div id="conainter">
+        <input id="display" readonly>
+        <button id="uni" onclick="clearDisplay()">C</button>
+        <div id="Keys">
+            <button onclick="appendToDisplay('+')" class="operator-btn">+</button> 
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('-')" class="operator-btn">-</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('*')" class="operator-btn">*</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('/')" class="operator-btn">/</button>
+            <button onclick="appendToDisplay('00')">00</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('.')">.</button>
+            <button onclick="appendToDisplay('%')" class="operator-btn">%</button>
+           
+            <button onclick="calculate()" id="uniq">=</button>
+            
+        </div>
+    </div>
+    </div>
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
