@@ -30,10 +30,3 @@ To use this calculator on your local machine, follow these steps:
 
    ```bash
    git clone https://github.com/yourusername/calculator.git
-
-
-
-
-
-
-   
