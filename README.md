@@ -6,7 +6,7 @@ Welcome to the **Calculator** project! This project demonstrates how to build a 
 
 You can check out the live demo of the calculator by clicking the link below:
 
-[Click here to view the live demo](https://example.com/demo)
+[Click here to view the live demo](https://aadisharma49.github.io/Calculator/)
 
 ## Features
 
